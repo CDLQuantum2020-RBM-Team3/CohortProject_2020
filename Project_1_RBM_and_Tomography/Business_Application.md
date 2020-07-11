@@ -31,25 +31,35 @@ Applications of optimizing molecular data simulation:
     - Ab initio determination of the crystalline structure of organic molecules [[1]](https://www.zapatacomputing.com/solutions/)
     - Molecular screening in drug discovery using continuous latent space [[1]](https://www.zapatacomputing.com/solutions/)
     - ground state simulations, why can't they do it easily and what would it change?
+    - Minimizes the massive R&D costs of searching for novel molecules by speeding up search and discovery
     - Additionally, with more advanced quantum computing hardware, drug development times could be **sped up by 20%** and **drug approval rates could double** using similar molecular simulation optimizations [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
         - We will have a stake in the quantum advantage by expanding research to be compatible with quantum resources, like our D-Wave optimization work
 
 
-- Other industries (financial, telecom, etc.) have the potential to benefit from the optimization with further work to effectively map their complex data sets into a Hamiltonian. 
+- Other industries (financial, telecom, energy, etc.) have the potential to benefit from the optimization with further work to effectively map their complex data sets into a Hamiltonian. 
 
 
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-**Target:** ideal potential customers are pharmaceutical and material science companies with a large investment in R&D in drug and molecule discovery
 
-- Big Pharma --- what are their R&D costs per drug?
+**Market Opportunity:** The Boston Consulting Group predicts that quantum simulations could represent an addressable market in pharmaceuticals of up to **$20 billion** by 2030 with **another $7 billion** coming from chemicals, materials science, and other materials science–intensive industries.
+    
+
+**Target Customers:** Pharmaceutical, chemical, and materials science companies with high R&D costs, who closely align innovation with business strategy
+
+- Big Pharma
     - Pfizer
     - Roche
     - Merck
-    - Where does this fall into the research pipeline??
     
-- Big Materials Science Companies
+- Big Chemicals & Materials Science Companies
+    - BASF
+        - Revenue: $67 billion; R&D: $5.9 billion (22% of costs) [[BASF Annual Report, 2019]](https://www.basf.com/global/documents/en/news-and-media/publications/reports/2020/BASF_Report_2019.pdf)
+    - DuPont
+        - Revenue:$22 billion; R&D: $955 million (7% of costs) [[DuPont 10-K, 2019]](https://s23.q4cdn.com/116192123/files/doc_financials/2019/Q4/DuPont-2019-10-K-(Final).pdf)
+    - PetroChina
+        - Revenue: $359 billion; R&D: $3.1 billion (0.9% of costs) [[PetroChina Annual Report, 2019]](http://www.petrochina.com.cn/ptr/ndbg/202004/a11e316ca2bd49bab9e2a55a58c02add/files/3a74f5fb90284053ac786919340f41b0.pdf)
     
 - The Boston Consulting Group predicts that quantum computing will have a **$15B to $30B** market share in the US pharmaceutical industry by 2030 [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
 We estimate that quantum simulations could represent an addressable market in pharmaceuticals of up to $20 billion by 2030 with another $7 billion coming from chemicals, materials science, and other materials science–intensive industries.
