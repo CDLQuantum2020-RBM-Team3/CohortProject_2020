@@ -19,13 +19,19 @@ To solve for the minimum number of hidden units `N_h` required, we run experimen
 
 The following figure shows the minimum value of `C` over a 1000 epoch training run for values of `N_h`: 
 
-[insert plot]
+[insert plot, C vs # hidden units]
 
-We find that we reach the energy difference threshold with only one hidden unit, `N_h = 1`.
+![C vs Hidden Units](/Task2_writeup_plots/"Sweep_over_hidden_units.png") ???save the plots and add???
 
-The following figure shows `C` vs number of epochs during a sample training run. 
+We find that we reach the least energy difference with only one hidden unit, `N_h = 1`. In fact, as shown in the plot below with ??*averaged*?? min energy differences as a function of the number of hidden units, we find that the energy differences increase as we increase hidden units. 
 
-[insert plot]
+Note: Since we intentionally used a large number of testing samples and introduced patience functions to minimize statistical variation in our energy difference calculations, we never actually hit the energy difference threshold, though we approach it with the lower hidden units.
+
+
+Below is an example of a statistically optimized plot given `N_h = 1` and `stopping_patience = 2`, displayed with `C` as a function of the  number of epochs during a sample training run. 
+
+[insert plot, C vs # epochs]
+
 
 We can solve for the "size" of the entity the RBM spits out is the equivalent storage of `100 + N_h + N_h*100 = 100 + 1 +1*100  = 201` numbers. In comparison to `2^100 = 1.27*10^30`, it's clear that the RBM's output is much smaller in size and, thus, extremely useful for computation. 
 
