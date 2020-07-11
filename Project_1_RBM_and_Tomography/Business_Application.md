@@ -13,10 +13,10 @@ A brief example for each question is included for the
 
 *early brainstorming bullets-- feel free to delete/change/simplify and expand on*
 
-Overall: Optimization, in application of studying energy of molecules
+Overall: Optimization, in application of studying energy of molecules.
 
-- Task 2: Optimization problem with exponential speedup: minimized the hidden units and training samples necessary for training the RBM (201 data points vs 10^30 data points)
-- D-Wave: **Figuring out**
+- **Task 2**: Optimization problem with exponential speedup: minimized the hidden units and training samples necessary for training the RBM (201 data points vs 10^30 data points)
+- **D-Wave**: Solving the optimization problem on D-Wave resources. Expanding our RBM optimization work to new efficient simulation platforms and building relationships and channels for collaboration with a big quantum hardware company (D-Wave). This work allows us a starting point for further exploration with D-Wave resources for further computationally complex chemistry problems we want to solve where D-Wave resources may provide an advantage (ex. larger molecules).  
 
 Example: Finding a global minimum in settings where a classical approach may not be able to find a global minimum.
 
