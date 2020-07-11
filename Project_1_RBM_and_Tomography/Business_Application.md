@@ -23,25 +23,25 @@ Example: Finding a global minimum in settings where a classical approach may not
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
 Optimizing data
+- Pharma applications -- searching for ideal molecules 
 - financial applications -- map financial data to a Hamiltonian 
-- Pharma applications -- searching for ideal molecules
 - ...
 
 Example: A courier has to deliver parcels to several locations and is looking to minimize its travel time. (e.g., “the travelling salesman problem”).
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
-- Big Pharma
-- Big Banks
+- Big Pharma --- what are their R&D costs per drug?
+    - Pfizer
+    - Roche
+    - Merck
+- Big Banks -- what is portfolio optimization R&D? Pitch the speedup of finding optimal portfolios
+    - JPM 
+    - Goldman Sachs
+    - Bank of America
 - ...
 
-Examples: 
-- Federal Express
-- Canada Post
-
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
-
-Example: By travelling to all destinations via the shortest route, a courier can generate the same revenue that it would have generated following any other route, but will minimize travel costs (e.g., fuel costs). By minimizing travel costs, the courier will be more profitable than it would have been had it travelled through any other route.
 
 **Script (main points-- drafting)**
 - exponential reduction in storage, ex) 201 numbers vs 10^30 data points
