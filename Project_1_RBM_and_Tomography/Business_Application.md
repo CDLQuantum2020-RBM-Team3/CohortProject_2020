@@ -22,8 +22,14 @@ Overall: Optimization, in application of studying energy of molecules.
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
-Optimizing data
-- Pharma and Materials Science applications -- drug and molecule discovery 
+Applications of optimizing molecular data simulation:
+- **Pharma and Materials Science applications**: drug and molecule discovery 
+    - Molecular structure analysis by combinatorial optimization
+    - Protein design using unconstrained discrete optimization [[1]](https://www.zapatacomputing.com/solutions/)
+    - QM/MM method for molecular binding affinity prediction in drug discovery [[1]](https://www.zapatacomputing.com/solutions/)
+    - Ab initio transition state analysis for catalytic reaction simulation [[1]](https://www.zapatacomputing.com/solutions/)
+    - Ab initio determination of the crystalline structure of organic molecules [[1]](https://www.zapatacomputing.com/solutions/)
+    - Molecular screening in drug discovery using continuous latent space [[1]](https://www.zapatacomputing.com/solutions/)
     - ground state simulations, why can't they do it easily and what would it change?
 - Other industries (financial, telecom, etc.) have the potential to benefit from the optimization with further work to effectively map their complex data sets into a Hamiltonian. 
 
