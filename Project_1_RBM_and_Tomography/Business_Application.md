@@ -15,7 +15,7 @@ A brief example for each question is included for the
 
 Overall: Optimization, in application of studying energy of molecules
 
-- Task 2: Optimization problem with exponential speedup: minimized the hidden units and training samples necessary for training the RBM
+- Task 2: Optimization problem with exponential speedup: minimized the hidden units and training samples necessary for training the RBM (201 data points vs 10^30 data points)
 - D-Wave: **Figuring out**
 
 Example: Finding a global minimum in settings where a classical approach may not be able to find a global minimum.
