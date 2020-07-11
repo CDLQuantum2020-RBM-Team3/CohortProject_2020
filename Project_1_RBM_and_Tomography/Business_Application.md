@@ -46,7 +46,7 @@ Applications of optimizing molecular data simulation:
 **Market Opportunity:** The Boston Consulting Group predicts that quantum simulations could represent an addressable market in pharmaceuticals of up to **$20 billion** by 2030 with **another $7 billion** coming from chemicals, materials science, and other materials science–intensive industries.
     
 
-**Target Customers:** Pharmaceutical, chemical, and materials science companies with a large investment in R&D 
+**Target Customers:** Pharmaceutical, chemical, and materials science companies with high R&D costs, who closely align innovation with business strategy
 
 - Big Pharma
     - Pfizer
@@ -55,8 +55,11 @@ Applications of optimizing molecular data simulation:
     
 - Big Chemicals & Materials Science Companies
     - BASF
+        - Revenue: $67 billion; R&D: $5.9 billion (22% of costs) [[BASF Annual Report, 2019]](https://www.basf.com/global/documents/en/news-and-media/publications/reports/2020/BASF_Report_2019.pdf)
     - DuPont
-    - ExxonMobil Chemical
+        - Revenue:$22 billion; R&D: $955 million (7% of costs) [[DuPont 10-K, 2019]](https://s23.q4cdn.com/116192123/files/doc_financials/2019/Q4/DuPont-2019-10-K-(Final).pdf)
+    - PetroChina
+        - Revenue: $359 billion; R&D: $3.1 billion (0.9% of costs) [[PetroChina Annual Report, 2019]](http://www.petrochina.com.cn/ptr/ndbg/202004/a11e316ca2bd49bab9e2a55a58c02add/files/3a74f5fb90284053ac786919340f41b0.pdf)
     
 - The Boston Consulting Group predicts that quantum computing will have a **$15B to $30B** market share in the US pharmaceutical industry by 2030 [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
 We estimate that quantum simulations could represent an addressable market in pharmaceuticals of up to $20 billion by 2030 with another $7 billion coming from chemicals, materials science, and other materials science–intensive industries.
