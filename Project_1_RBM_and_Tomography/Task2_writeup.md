@@ -8,43 +8,32 @@ In order to do so, we train an RBM using the entire dataset (20,000 data points)
 
 We define "very close to the exact energy" with the following energy difference threshold formula:
 
-    C = |E_{RBM} - E_{exact}| <= 0.0001
-
-
-???? `n` times in a row upon evaluation, where we make evaluations every `I_{eval}` epochs. ?????
+`C = |E_{RBM} - E_{exact}| <= 0.0001`
 
 In order to minimise statistical variation in `C` and, therefore, minimize the chance of triggering the stopping criterion too early, we find it's important to use a large number of testing samples. In our test, we use 10,000 testing samples.
 
-To solve for the minimum number of hidden units `n_hin` required, we run experiments with max epochs `E` set to 1000 while ramping `N_h` up between experiments. Starting with 1 hidden unit, we test whether `C`, the energy difference threshold, is met.
+To solve for the minimum number of hidden units `N_h` required, we run experiments with max epochs `E` set to 1000 while ramping `N_h` up between experiments. Starting with 1 hidden unit, we test whether `C = 0.0001`, the energy difference threshold, is met.
 
-The following figure shows the minimum value of `C` over a 1000 epoch training run for values of `n_hin`: 
+The following figures show the minimum value of `C` over a 1000 epoch training run for values of `N_h` (the top figure has a coarser sweep than bottom figure):
 
-[insert plot, C vs # hidden units]
+![](./Task2_writeup_figures/h_sweep_wide.png)
 
-![C vs Hidden Units](/Task2_writeup_plots/"Sweep_over_hidden_units.png") ???save the plots and add???
+![](./Task2_writeup_figures/h_sweep_narrow.png)
 
-We find that we reach the least energy difference with only one hidden unit, `n_hin = 1`. In fact, as shown in the plot below with ??*averaged*?? min energy differences as a function of the number of hidden units, we find that the energy differences increase as we increase hidden units. 
+As can be read directly off the top figure above, we find that we achieve the least energy difference with low numbers of hidden units. Although the second chart has a minimum at `N_h = 4` we believe this is because of statistical noise - the general trends points to `N_h = 1` as the optimum and multiple trials support this.
 
-Note: Since we intentionally used a large number of testing samples and introduced patience functions to minimize statistical variation in our energy difference calculations, we never actually hit the energy difference threshold, though we approach it with the lower hidden units.
+Note: Since we intentionally used a large number of testing samples to minimize statistical variation in our energy difference calculations, we never actually hit the proposed target for minimum energy difference, though we approach it with the lower hidden units.
 
+Below is a plot of `C` as a function of the number of epochs during a sample training run with `N_h = 1`.
 
-Below is an example of a statistically optimized plot given `n_hin = 1` and `stopping_patience = 2`, displayed with `C` as a function of the  number of epochs during a sample training run. 
+![](./Task2_writeup_figures/training_1h.png)
 
-[insert plot, C vs # epochs]
-
-
-We can solve for the "size" of the entity the RBM spits out is the equivalent storage of `100 + n_hin + n_hin*100 = 100 + 1 + 1*100  = 201` numbers. In comparison to `2^100 = 1.27*10^30`, it's clear that the RBM's output is much smaller in size and, thus, extremely useful for computation. 
-
-
+We can solve for the "size" of the entity the RBM spits out is the equivalent storage of `100 + N_h + N_h*100 = 100 + 1 + 1*100  = 201` numbers. In comparison to `2^{100} = 1.27*10^{30}`, it's clear that the RBM's memory is much more compact and thus, extremely useful for computation.
 
 ## 2. Minimum number of data samples required
 
-In the final part of Task 2, we are interested in reducing the amount of data we need for testing to achieve the desired `C` energy difference threshold. In this case, we solve with double the minimum `n_hin` hidden units found in Part 1 (double min N_h = 2 hidden units).
+In the final part of Task 2, we are interested finding out how much data is required to learn a good model. We run multiple experiments, varying the number of training samples and examining the best `C` achieved. Here we set `N_h = 2` (double the optimal amount when training with all 20000 samples).
 
-We start with 500 testing data points, `n_testing_samples`, and move up in increments of 100 to solve for the minimum testing samples necessary to reach `C`, the energy difference threshold.
- 
- [insert plot]
- 
-We find that the minimum `n_testing_samples` necessary to reach `C` is 500 testing samples, a significant reduction in data from the original 20,000 data points. 
+![](./Task2_writeup_figures/nt_sweep.png)
 
-
+We found that anything above 15,000 samples seems to achieve optimal results.
