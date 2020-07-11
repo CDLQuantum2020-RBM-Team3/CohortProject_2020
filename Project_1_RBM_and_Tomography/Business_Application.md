@@ -23,7 +23,7 @@ Overall: Optimization, in application of studying energy of molecules.
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
 Applications of optimizing molecular data simulation:
-- **Pharma and Materials Science applications**: drug and molecule discovery 
+- **Pharmaceutical & Materials Science applications**: drug and molecule discovery 
     - Molecular structure analysis by combinatorial optimization
     - Protein design using unconstrained discrete optimization [[1]](https://www.zapatacomputing.com/solutions/)
     - QM/MM method for molecular binding affinity prediction in drug discovery [[1]](https://www.zapatacomputing.com/solutions/)
@@ -31,7 +31,7 @@ Applications of optimizing molecular data simulation:
     - Ab initio determination of the crystalline structure of organic molecules [[1]](https://www.zapatacomputing.com/solutions/)
     - Molecular screening in drug discovery using continuous latent space [[1]](https://www.zapatacomputing.com/solutions/)
     - ground state simulations, why can't they do it easily and what would it change?
-    - Additionally, with more advanced quantum computing hardware, drug development times could be **sped up by 20%** and **drug approval rates could double** using similar molecular simulation optimizations [[Boston Consulting Group]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
+    - Additionally, with more advanced quantum computing hardware, drug development times could be **sped up by 20%** and **drug approval rates could double** using similar molecular simulation optimizations [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
         - We will have a stake in the quantum advantage by expanding research to be compatible with quantum resources, like our D-Wave optimization work
 
 
@@ -41,13 +41,18 @@ Applications of optimizing molecular data simulation:
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
+**Target:** ideal potential customers are pharmaceutical and material science companies with a large investment in R&D in drug and molecule discovery
+
 - Big Pharma --- what are their R&D costs per drug?
     - Pfizer
     - Roche
     - Merck
     - Where does this fall into the research pipeline??
     
+- Big Materials Science Companies
+    
 - The Boston Consulting Group predicts that quantum computing will have a **$15B to $30B** market share in the US pharmaceutical industry by 2030 [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
+We estimate that quantum simulations could represent an addressable market in pharmaceuticals of up to $20 billion by 2030 with another $7 billion coming from chemicals, materials science, and other materials science–intensive industries.
     
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
