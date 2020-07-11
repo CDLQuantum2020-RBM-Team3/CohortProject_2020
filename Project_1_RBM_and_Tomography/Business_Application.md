@@ -24,7 +24,10 @@ Example: Finding a global minimum in settings where a classical approach may not
 
 Optimizing data
 - Pharma applications -- searching for ideal molecules 
+    - ground state simulations, why cant' they do it easily and what would it change?
+---Where does this fall into the research pipeline??
 - financial applications -- map financial data to a Hamiltonian 
+
 - ...
 
 Example: A courier has to deliver parcels to several locations and is looking to minimize its travel time. (e.g., “the travelling salesman problem”).
@@ -44,5 +47,13 @@ Example: A courier has to deliver parcels to several locations and is looking to
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
 **Script (main points-- drafting)**
+
+- The development of these new Ising machines and the possibility of mapping the electronic structure problem into
+an Ising-type Hamiltonian may grant efficient ways to obtain exact solutions to the Schrödinger equation;
+this being one of the most daunting computational problem present in both chemistry and physics.
+
+
+- COVID comparison!
+
 - exponential reduction in storage, ex) 201 numbers vs 10^30 data points
     - on top of that, we're quadratically decreasing the testing data necessary, to improve computational speeds
