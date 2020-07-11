@@ -23,14 +23,13 @@ Overall: Optimization, in application of studying energy of molecules.
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
 
 Applications of optimizing molecular data simulation:
-- **Pharmaceutical & Materials Science applications**: drug and molecule discovery 
-    - Molecular structure analysis by combinatorial optimization
+- **Pharmaceutical & Materials Science applications**: optimizing drug and molecule discovery 
+    - Molecular structure analysis for chemical and drug R&D
     - Protein design using unconstrained discrete optimization [[1]](https://www.zapatacomputing.com/solutions/)
-    - QM/MM method for molecular binding affinity prediction in drug discovery [[1]](https://www.zapatacomputing.com/solutions/)
-    - Ab initio transition state analysis for catalytic reaction simulation [[1]](https://www.zapatacomputing.com/solutions/)
-    - Ab initio determination of the crystalline structure of organic molecules [[1]](https://www.zapatacomputing.com/solutions/)
-    - Molecular screening in drug discovery using continuous latent space [[1]](https://www.zapatacomputing.com/solutions/)
-    - ground state simulations, why can't they do it easily and what would it change?
+    - Simulations for molecular binding affinity prediction in drug discovery [[1]](https://www.zapatacomputing.com/solutions/)
+    - Transition state analysis for catalytic reaction simulation [[1]](https://www.zapatacomputing.com/solutions/)
+    - Determination of the crystalline structure of organic molecules [[1]](https://www.zapatacomputing.com/solutions/)
+    - Molecular screening in drug discovery using continuous latent space [[1]](https://www.zapatacomputing.com/solutions/) [[2]](https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-9-71)
     - Minimizes the massive R&D costs of searching for novel molecules by speeding up search and discovery
     - Additionally, with more advanced quantum computing hardware, drug development times could be **sped up by 20%** and **drug approval rates could double** using similar molecular simulation optimizations [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
         - We will have a stake in the quantum advantage by expanding research to be compatible with quantum resources, like our D-Wave optimization work
