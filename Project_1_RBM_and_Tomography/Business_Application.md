@@ -50,22 +50,28 @@ Applications of optimizing molecular data simulation:
 
 - Big Pharma
     - Pfizer
+        - Revenue: $52 billion [[Pfizer 10-K, 2019]](http://d18rn0p25nwr6d.cloudfront.net/CIK-0000078003/dee171a3-b766-46e8-a807-dab4c7fb1895.pdf)
+        - R&D: $8.7 billion (85% of costs)
     - Roche
+        - Revenue: $65 billion [[Roche Annual Report, 2019]](https://www.roche.com/dam/jcr:a3545548-a7f9-40f4-a70e-7266a363f856/en/ar19e.pdf)
+        - R&D: $12.4 billion (30% of costs)
     - Merck
+        - Revenue: $47 billion [[Merck 10-K, 2020]](http://d18rn0p25nwr6d.cloudfront.net/CIK-0000064978/75a322e0-ce26-478b-954f-5da950e9d365.pdf)
+        - R&D: $9.9 billion (70% of costs)
     
 - Big Chemicals & Materials Science Companies
     - BASF 
         - Revenue: $67 billion [[BASF Annual Report, 2019]](https://www.basf.com/global/documents/en/news-and-media/publications/reports/2020/BASF_Report_2019.pdf)
         - R&D: $5.9 billion (22% of costs) 
+    - 3M
+        - Revenue: $31 billion [[3M 10-K, 2020]](http://d18rn0p25nwr6d.cloudfront.net/CIK-0000066740/d02f076e-a2bb-49af-b19b-ad4aebfd51fb.pdf)
+        - R&D: $1.8 billion (11% of costs)
     - DuPont
         - Revenue:$22 billion [[DuPont 10-K, 2019]](https://s23.q4cdn.com/116192123/files/doc_financials/2019/Q4/DuPont-2019-10-K-(Final).pdf)
         - R&D: $955 million (7% of costs) 
     - PetroChina
         - Revenue: $359 billion [[PetroChina Annual Report, 2019]](http://www.petrochina.com.cn/ptr/ndbg/202004/a11e316ca2bd49bab9e2a55a58c02add/files/3a74f5fb90284053ac786919340f41b0.pdf)
         - R&D: $3.1 billion (0.9% of costs) 
-    
-- The Boston Consulting Group predicts that quantum computing will have a **$15B to $30B** market share in the US pharmaceutical industry by 2030 [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
-We estimate that quantum simulations could represent an addressable market in pharmaceuticals of up to $20 billion by 2030 with another $7 billion coming from chemicals, materials science, and other materials science–intensive industries.
     
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
