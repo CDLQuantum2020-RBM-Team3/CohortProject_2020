@@ -27,11 +27,18 @@ The following figure shows `C` vs number of epochs during a sample training run.
 
 [insert plot]
 
+We can solve for the "size" of the entity the RBM spits out is the equivalent storage of `100 + N_h + N_h*100 = 100 + 1 +1*100  = 201` numbers. In comparison to `2^100 = 1.27*10^30`, it's clear that the RBM's output is much smaller in size and, thus, extremely useful for computation. 
+
 
 
 ## 2. Minimum number of data samples required
 
-In the final part of Task 2, we are interested in reducing the amount of data we need for testing to achieve the desired `C` energy difference threshold. In this case, we solve with double the minimum hidden units found in Part 1 (2*(1 hidden unit) = 2 hidden units).
+In the final part of Task 2, we are interested in reducing the amount of data we need for testing to achieve the desired `C` energy difference threshold. In this case, we solve with double the minimum `N_h` hidden units found in Part 1 (double min N_h = 2 hidden units).
 
+We start with 500 testing data points, `n_testing_samples`, and move up in increments of 100 to solve for the minimum testing samples necessary to reach `C`, the energy difference threshold.
  
+ [insert plot]
+ 
+We find that the minimum `n_testing_samples` necessary to reach `C` is ???500.???, a significant reduction in data from the original 20,000 data points. 
+
 
