@@ -24,15 +24,17 @@ Overall: Optimization, in application of studying energy of molecules.
 
 Applications of optimizing molecular data simulation:
 - **Pharmaceutical & Materials Science applications**: optimizing drug and molecule discovery 
-    - Molecular structure analysis for chemical and drug R&D
-    - Protein design using unconstrained discrete optimization [[1]](https://www.zapatacomputing.com/solutions/)
-    - Simulations for molecular binding affinity prediction in drug discovery [[1]](https://www.zapatacomputing.com/solutions/)
-    - Transition state analysis for catalytic reaction simulation [[1]](https://www.zapatacomputing.com/solutions/)
-    - Determination of the crystalline structure of organic molecules [[1]](https://www.zapatacomputing.com/solutions/)
-    - Molecular screening in drug discovery using continuous latent space [[1]](https://www.zapatacomputing.com/solutions/) [[2]](https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-9-71)
-    - Minimizes the massive R&D costs of searching for novel molecules by speeding up search and discovery
-    - Additionally, with more advanced quantum computing hardware, drug development times could be **sped up by 20%** and **drug approval rates could double** using similar molecular simulation optimizations [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
-        - We will have a stake in the quantum advantage by expanding research to be compatible with quantum resources, like our D-Wave optimization work
+    - Advantages for expanding and speeding up drug and molecule discovery R&D:
+        - Molecular structure analysis for complex molecules useful for chemical and drug R&D
+        - Protein design using unconstrained discrete optimization [[1]](https://www.zapatacomputing.com/solutions/) [[2]](https://www.sciencedirect.com/science/article/pii/S0004370214000332)
+        - Simulations for molecular binding affinity prediction in drug discovery [[1]](https://www.zapatacomputing.com/solutions/) [[4]](https://link.springer.com/article/10.1007/s10822-010-9363-3)
+        - Transition state analysis for catalytic reaction simulation [[1]](https://www.zapatacomputing.com/solutions/) [[5]](https://pubs.acs.org/doi/abs/10.1021/jp020326p?casa_token=SMtIra4cJp8AAAAA:aaeP5ToKdgk_0pbqIG-KrYsixjmVuJuSSE-q0Tf-Rgc4pURIpx1DhilqmoLIAI7OLZoKpiZKe7uKT1fw)
+        - Determination of the crystalline structure of organic molecules [[1]](https://www.zapatacomputing.com/solutions/) [[6]](https://link.springer.com/content/pdf/10.1007/978-3-319-05774-3.pdf) [[7]](https://www.nature.com/articles/ncomms1451.)
+        - Molecular screening in drug discovery using continuous latent space [[1]](https://www.zapatacomputing.com/solutions/) [[3]](https://bmcbiol.biomedcentral.com/articles/10.1186/1741-7007-9-71)
+        - Minimizes the massive R&D costs of searching for novel molecules by speeding up search and discovery
+    - Quantum Computing implementation (future research expansion):
+        - Additionally, with more advanced quantum computing hardware, drug development times could be **sped up by 20%** and **drug approval rates could double** using similar molecular simulation optimizations [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
+            - We will have a stake in the quantum advantage by expanding research to be compatible with quantum resources, like our D-Wave optimization work
 
 
 - Other industries (financial, telecom, energy, etc.) have the potential to benefit from the optimization with further work to effectively map their complex data sets into a Hamiltonian. 
