@@ -31,7 +31,12 @@ Applications of optimizing molecular data simulation:
     - Ab initio determination of the crystalline structure of organic molecules [[1]](https://www.zapatacomputing.com/solutions/)
     - Molecular screening in drug discovery using continuous latent space [[1]](https://www.zapatacomputing.com/solutions/)
     - ground state simulations, why can't they do it easily and what would it change?
+    - Additionally, with more advanced quantum computing hardware, drug development times could be sped up by **20%** using similar molecular simulation optimizations [[Boston Consulting Group]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx)
+        - We will have a stake in this by expanding research to be compatible with quantum resources, like our D-Wave optimization work
+
+
 - Other industries (financial, telecom, etc.) have the potential to benefit from the optimization with further work to effectively map their complex data sets into a Hamiltonian. 
+
 
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
@@ -41,11 +46,7 @@ Applications of optimizing molecular data simulation:
     - Roche
     - Merck
     - Where does this fall into the research pipeline??
-- Big Banks -- what is portfolio optimization R&D? Pitch the speedup of finding optimal portfolios
-    - JPM 
-    - Goldman Sachs
-    - Bank of America
-
+    
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
