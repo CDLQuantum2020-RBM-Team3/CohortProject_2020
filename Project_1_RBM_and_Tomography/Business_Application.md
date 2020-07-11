@@ -43,7 +43,7 @@ Applications of optimizing molecular data simulation:
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
 
-**Market Opportunity:** The Boston Consulting Group predicts that quantum simulations could represent an addressable market in pharmaceuticals of up to **$20 billion** by 2030 with **another $7 billion** coming from chemicals, materials science, and other materials science–intensive industries.
+**Market Opportunity:** The Boston Consulting Group [[BCG, 2019]](https://www.bcg.com/en-us/publications/2018/coming-quantum-leap-computing.aspx) predicts that quantum simulations could represent an addressable market in pharmaceuticals of up to **$20 billion** by 2030 with **another $7 billion** coming from chemicals, materials science, and other materials science–intensive industries. 
     
 
 **Target Customers:** Pharmaceutical, chemical, and materials science companies with high R&D costs, who closely align innovation with business strategy
