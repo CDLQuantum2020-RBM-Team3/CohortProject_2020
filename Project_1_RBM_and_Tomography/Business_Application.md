@@ -11,12 +11,10 @@ A brief example for each question is included for the
 
 ## Step 1: Explain the technical problem you solved in this exercise
 
-*early brainstorming bullets-- feel free to delete/change/simplify and expand on*
-
 Overall: Optimization, in application of studying energy of molecules.
 
-- **Task 2**: Optimization problem with exponential speedup: minimized the hidden units and training samples necessary for training the RBM (201 data points vs 10^30 data points)
-- **D-Wave**: Solving the optimization problem on D-Wave resources. Expanding our RBM optimization work to new efficient simulation platforms and building relationships and channels for collaboration with a big quantum hardware company (D-Wave). This work allows us a starting point for further exploration with D-Wave resources for further computationally complex chemistry problems we want to solve where D-Wave resources may provide an advantage (ex. larger molecules).  
+- **Task 1 & Task 2**: Optimization problem with exponential speedup: minimized the hidden units and training samples necessary for training the RBM (In the example of Task 2, 201 data points vs 10^30 data points)
+- **D-Wave**: Solving the optimization problem on D-Wave resources. Expanding our RBM optimization work as well as efficiently mapping the problem for simulation. This work allows us a starting point for further exploration with D-Wave resources for further computationally complex chemistry problems we want to solve where D-Wave resources may provide an advantage (ex. larger molecules).  
 
 
 
@@ -77,18 +75,5 @@ Applications of optimizing molecular data simulation:
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-**Script (main points)**
-
-- "The development of these new Ising machines and the possibility of mapping the electronic structure problem into
-an Ising-type Hamiltonian may grant efficient ways to obtain exact solutions to the Schrödinger equation;
-this being one of the most daunting computational problem present in both chemistry and physics."
-
-
-- COVID comparison!
-
-- exponential reduction in storage, ex) 201 numbers vs 10^30 data points
-    - on top of that, we're quadratically decreasing the testing data necessary, to improve computational speeds
-    
-**Draft**
-
-Today, during a global pandemic like COVID-19, it has never been more evident the importance of reducing both time and cost for the discovery of new vaccines and therapeutic drugs. We have leveraged advancements in both machine learning and quantum annealing technology to accelerate the drug and molecule discovery process. Our team has developed an effective means to map and simulate the electronic structure of these molecules faster and more efficiently. By using a method that exponentially reduces the amount of data required, we have accelerated our computational speeds. We have demonstrated this with small scale molecules and now are scaling up the technology to work with more complex chemical problems. We're also collaborating with quantum computing firms to integrate our strategy with their resources so we're best positioned to utilize further molecule discovery speedups down the road. Molecule research and discovery is a core step in the drug design process that if accelerated, could allow for massive leaps in fighting back against COVID-19 as well as future viruses and illness to come.
+Link to video: 
+https://drive.google.com/file/d/1q9Kr6NarcJPbQSPVy6IM22AZEYxfkxpt/view?usp=sharing
