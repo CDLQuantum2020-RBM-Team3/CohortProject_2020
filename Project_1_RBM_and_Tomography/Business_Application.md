@@ -77,7 +77,7 @@ Applications of optimizing molecular data simulation:
 
 ## Step 4: Prepare a 90 second video explaining the value proposition of your innovation to this potential customer in non-technical language
 
-**Script (main points-- drafting)**
+**Script (main points)**
 
 - "The development of these new Ising machines and the possibility of mapping the electronic structure problem into
 an Ising-type Hamiltonian may grant efficient ways to obtain exact solutions to the Schrödinger equation;
@@ -88,3 +88,5 @@ this being one of the most daunting computational problem present in both chemis
 
 - exponential reduction in storage, ex) 201 numbers vs 10^30 data points
     - on top of that, we're quadratically decreasing the testing data necessary, to improve computational speeds
+**Draft**
+Today, during a global pandemic like COVID-19, it has never been more evident the importance of reducing both time and cost for the discovery of new vaccines and therapeutic drugs. We have leveraged advancements in both machine learning and quantum annealing technology to find an innovative solution. Our team has developed an effective means to map and simulate the electronic structure of these molecules. By using a method that substantially reduces the amount of stored data required, we have accelerated our computational speeds. We have demonstrated this with small scale systems and now are scaling up the technology to work with much more. This is a core step in the drug design process that if reduced, could allow for massive leaps in fighting back against COVID-19 as well as future viruses and illness to come.
